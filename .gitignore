@@ -7,3 +7,10 @@ __pycache__/
 .env.*
 .DS_Store
 Thumbs.db
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local baseline artifact
+models/artifacts/random_forest_pipeline.joblib
